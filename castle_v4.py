@@ -378,7 +378,7 @@ class Player(Enemy):
             self.aY = GRAVITY
             self.fartY += self.aY
 
-#Klassen for roboter. Jeg ser at det kunne vært hensiktsmessig å hatt de to fiendene som to ulike klassene  
+#Klassen for roboter
             
 class Bot(Enemy):
     
@@ -703,7 +703,7 @@ chopperCooldowns = {
     "Wave 7": 3_000
     }
 tankCooldowns = {
-    "Wave 1": 1_050,
+    "Wave 1": 15_050,
     "Wave 2": 7_890,
     "Wave 3": 10_000,
     "Wave 4": 3_500,
@@ -714,8 +714,8 @@ tankCooldowns = {
 
 enemiesPerWave = {
     #chopper, tanks
-    "Wave 1": [1,0],
-    "Wave 2": [1,1],
+    "Wave 1": [5,0],
+    "Wave 2": [5,1],
     "Wave 3": [6,3],
     "Wave 4": [0,7],
     "Wave 5": [5,5],
@@ -1158,4 +1158,4 @@ pg.quit()
 
 
 
-f
+
